@@ -1,0 +1,39 @@
+name: "data"
+data {
+  name: "text_hidden2_train_1"
+  file_pattern: "joint_txt/data/sae_txt/train/hidden2-00001-of-00001_norm.npy"
+  size: 2173
+  dimensions: 512
+}
+data {
+  name: "text_hidden2_validation_1"
+  file_pattern: "joint_txt/data/sae_txt/validation/hidden2-00001-of-00001_norm.npy"
+  size: 231
+  dimensions: 512
+}
+data {
+  name: "text_hidden2_test_1"
+  file_pattern: "joint_txt/data/sae_txt/test/hidden2-00001-of-00001_norm.npy"
+  size: 462
+  dimensions: 512
+}
+data {
+  name: "text_hidden2_train_2"
+  file_pattern: "joint_txt/data/joint_txt/train/joint_hidden-00001-of-00001.npy"
+  size: 2173
+  dimensions: 2048
+}
+data {
+  name: "text_hidden2_validation_2"
+  file_pattern: "joint_txt/data/joint_txt/validation/joint_hidden-00001-of-00001.npy"
+  size: 231
+  dimensions: 2048
+}
+data {
+  name: "text_hidden2_test_2"
+  file_pattern: "joint_txt/data/joint_txt/test/joint_hidden-00001-of-00001.npy"
+  size: 462
+  dimensions: 2048
+}
+gpu_memory: "4G"
+main_memory: "25G"
