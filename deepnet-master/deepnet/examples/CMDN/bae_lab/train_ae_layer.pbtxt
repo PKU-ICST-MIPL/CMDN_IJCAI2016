@@ -1,0 +1,12 @@
+optimizer: GRADIENT_DESCENT
+stopcondition {
+  all_processed: false
+  steps:2000
+}
+train: true
+batchsize: 231
+data_proto: "bae_lab/data.pbtxt"
+eval_after: 1000
+checkpoint_after: 2000
+checkpoint_directory: "bae_lab/data/ae_models"
+randomize: true

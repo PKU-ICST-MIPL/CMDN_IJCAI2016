@@ -1,0 +1,70 @@
+name: "data"
+data {
+  name: "bae_train_lab_data"
+  file_pattern: "bae_train_lab_data.npy"
+  size: 6519
+  dimensions: 1
+}
+data {
+  name: "validation_lab_data"
+  file_pattern: "validation_lab_data.npy"
+  size: 231
+  dimensions: 1
+}
+data {
+  name: "test_lab_data"
+  file_pattern: "test_lab_data.npy"
+  size: 462
+  dimensions: 1
+}
+data {
+  name: "bae_image_hidden2_train"
+  file_pattern: "train_img_data.npy"
+  size: 6519
+  dimensions: 512
+}
+data {
+  name: "bae_image_hidden2_validation"
+  file_pattern: "validation_img_data.npy"
+  size: 231
+  dimensions: 512
+}
+data {
+  name: "bae_image_hidden2_test"
+  file_pattern: "test_img_data.npy"
+  size: 462
+  dimensions: 512
+}
+data {
+  name: "bae_text_hidden2_train"
+  file_pattern: "train_txt_data.npy"
+  size: 6519
+  dimensions: 512
+}
+data {
+  name: "bae_text_hidden2_validation"
+  file_pattern: "validation_txt_data.npy"
+  size: 231
+  dimensions: 512
+}
+data {
+  name: "bae_text_hidden2_test"
+  file_pattern: "test_txt_data.npy"
+  size: 462
+  dimensions: 512
+}
+data {
+  name: "bae_image_hidden2_train_all"
+  file_pattern: "train_all_img_data.npy"
+  size: 6519
+  dimensions: 512
+}
+data {
+  name: "bae_text_hidden2_train_all"
+  file_pattern: "train_all_txt_data.npy"
+  size: 6519
+  dimensions: 512
+}
+gpu_memory: "4G"
+main_memory: "25G"
+prefix: "bae_rep/data"
