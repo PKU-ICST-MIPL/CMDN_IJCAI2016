@@ -1,0 +1,29 @@
+name: "data"
+data {
+	name: "image_unlabelled"
+	file_pattern: "../../../data/train_img_data.npy"
+	size: 2173
+	dimensions: 4096
+
+}
+
+data {
+	name: "image_labelled"
+	file_pattern: "../../../data/validation_img_data.npy"
+	size: 231
+	dimensions: 4096
+}
+
+data {
+	name: "text_unlabelled"
+	file_pattern: "../../../data/train_txt_data.npy"
+	size: 2173
+	dimensions: 3000
+}
+
+data {
+	name: "text_labelled"
+	file_pattern: "../../../data/validation_txt_data.npy"
+	size: 231
+	dimensions: 3000
+}

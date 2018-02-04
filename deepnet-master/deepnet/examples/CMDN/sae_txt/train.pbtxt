@@ -1,0 +1,13 @@
+optimizer: GRADIENT_DESCENT
+stopcondition {
+  all_processed: false
+  steps: 100000
+}
+train: true
+batchsize: 115
+data_proto: "sae_txt/data/wikipedia.pbtxt"
+eval_after: 5000
+checkpoint_after: 100000
+checkpoint_directory: "sae_txt/data/sae_models"
+randomize: true
+#show_after: 500
