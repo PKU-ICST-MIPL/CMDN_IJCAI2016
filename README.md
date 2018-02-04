@@ -10,7 +10,7 @@ Set up deepnet as the instruction of deepnet-master/INSTALL.txt.
   
 2.Data
 
-cd to the deepnet-master/deepnet/examples/CMDN/feature dir.
+cd to the deepnet-master/deepnet/examples/CMDN/feature dir.  
 put the data with matlab format in this folder, and run mat2npy.py to convert matlab format to numpy format. Detailed data format please see in mat2npy.py.
   
 3.Set
