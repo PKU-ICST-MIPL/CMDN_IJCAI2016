@@ -1,7 +1,7 @@
 # Introduction
 This is the source code of our IJCAI 2016 paper "Cross-media Shared Representation by Hierarchical Learning with Multiple Deep Networks", Please cite the following paper if you use our code.
 
-Yuxin Peng, Xin Huang, and Jinwei Qi, "Cross-media Shared Representation by Hierarchical Learning with Multiple Deep Networks", 25th International Joint Conference on Artificial Intelligence (IJCAI), pp. 3846-3853 , New York City, New York, USA, Jul. 9-15, 2016.
+Yuxin Peng, Xin Huang, and Jinwei Qi, "Cross-media Shared Representation by Hierarchical Learning with Multiple Deep Networks", 25th International Joint Conference on Artificial Intelligence (IJCAI), pp. 3846-3853 , New York City, New York, USA, Jul. 9-15, 2016. [[PDF]](http://www.icst.pku.edu.cn/mipl/tiki-download_file.php?fileId=314)
 
 # Usage
 1.Environment
