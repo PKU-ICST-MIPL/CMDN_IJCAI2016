@@ -33,4 +33,3 @@ If you are interested in cross-media retrieval, you can check our recently publi
 Yuxin Peng, Xin Huang, and Yunzhen Zhao, "An Overview of Cross-media Retrieval: Concepts, Methodologies, Benchmarks and Challenges", IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2017.[[PDF]](http://www.icst.pku.edu.cn/mipl/tiki-download_file.php?fileId=376)
 
 Welcome to our [Benchmark Website](http://www.icst.pku.edu.cn/mipl/xmedia) and [Laboratory Homepage](http://www.icst.pku.edu.cn/mipl) for more information about our papers, source codes, and datasets.
-
